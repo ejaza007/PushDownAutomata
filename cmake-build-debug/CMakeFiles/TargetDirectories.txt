@@ -1,0 +1,5 @@
+/Users/armaghanejaz/CLionProjects/cs203_lab2/cmake-build-debug/CMakeFiles/pda.dir
+/Users/armaghanejaz/CLionProjects/cs203_lab2/cmake-build-debug/CMakeFiles/test_list.dir
+/Users/armaghanejaz/CLionProjects/cs203_lab2/cmake-build-debug/CMakeFiles/test_stack.dir
+/Users/armaghanejaz/CLionProjects/cs203_lab2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/armaghanejaz/CLionProjects/cs203_lab2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
