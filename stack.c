@@ -38,7 +38,6 @@ char peek(struct stack_node *stack) {
 
 // Add new node to top of the stack.
 struct stack_node *push(struct stack_node *stack, char item) {
-
     struct stack_node* element = generate_stack_node(item);
 
     element->next = stack;
@@ -63,7 +62,7 @@ void display_stack(struct stack_node *stack) {
     printf("stack: ");
     while(node) {
         putchar(node->item);
-        node = node->next;
+        node = (node->next);
     }
     puts("");
 }

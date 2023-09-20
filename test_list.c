@@ -44,8 +44,6 @@ int main () {
     node = delete_last(node);
     assert(node->item == 'a');
 
-
-
     node = insert(node, 'b');
     assert(node->next->item == 'b');
 

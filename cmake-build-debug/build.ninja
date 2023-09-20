@@ -163,6 +163,55 @@ build test_stack: C_EXECUTABLE_LINKER__test_stack_Debug CMakeFiles/test_stack.di
   TARGET_FILE = test_stack
   TARGET_PDB = test_stack.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target test_pda
+
+
+#############################################
+# Order-only phony target for test_pda
+
+build cmake_object_order_depends_target_test_pda: phony || CMakeFiles/test_pda.dir
+
+build CMakeFiles/test_pda.dir/pda.c.o: C_COMPILER__test_pda_unscanned_Debug /Users/armaghanejaz/CLionProjects/cs203_lab2/pda.c || cmake_object_order_depends_target_test_pda
+  DEP_FILE = CMakeFiles/test_pda.dir/pda.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.2 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/test_pda.dir
+  OBJECT_FILE_DIR = CMakeFiles/test_pda.dir
+
+build CMakeFiles/test_pda.dir/list.c.o: C_COMPILER__test_pda_unscanned_Debug /Users/armaghanejaz/CLionProjects/cs203_lab2/list.c || cmake_object_order_depends_target_test_pda
+  DEP_FILE = CMakeFiles/test_pda.dir/list.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.2 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/test_pda.dir
+  OBJECT_FILE_DIR = CMakeFiles/test_pda.dir
+
+build CMakeFiles/test_pda.dir/stack.c.o: C_COMPILER__test_pda_unscanned_Debug /Users/armaghanejaz/CLionProjects/cs203_lab2/stack.c || cmake_object_order_depends_target_test_pda
+  DEP_FILE = CMakeFiles/test_pda.dir/stack.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.2 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/test_pda.dir
+  OBJECT_FILE_DIR = CMakeFiles/test_pda.dir
+
+build CMakeFiles/test_pda.dir/test_pda.c.o: C_COMPILER__test_pda_unscanned_Debug /Users/armaghanejaz/CLionProjects/cs203_lab2/test_pda.c || cmake_object_order_depends_target_test_pda
+  DEP_FILE = CMakeFiles/test_pda.dir/test_pda.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.2 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/test_pda.dir
+  OBJECT_FILE_DIR = CMakeFiles/test_pda.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target test_pda
+
+
+#############################################
+# Link the executable test_pda
+
+build test_pda: C_EXECUTABLE_LINKER__test_pda_Debug CMakeFiles/test_pda.dir/pda.c.o CMakeFiles/test_pda.dir/list.c.o CMakeFiles/test_pda.dir/stack.c.o CMakeFiles/test_pda.dir/test_pda.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.2
+  OBJECT_DIR = CMakeFiles/test_pda.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = test_pda
+  TARGET_PDB = test_pda.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -197,7 +246,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/armaghanejaz/CLionProjects/cs203_lab2/cmake-build-debug
 
-build all: phony pda test_list test_stack
+build all: phony pda test_list test_stack test_pda
 
 # =============================================================================
 # Built-in targets

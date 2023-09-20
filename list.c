@@ -26,6 +26,7 @@ struct list_node *generate_list_node(char item) {
 
     node->next = NULL;
     node->item = item;
+    node->stack = NULL;
 
     return node;
 }

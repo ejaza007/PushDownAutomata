@@ -4,8 +4,8 @@
 //
 
 #include <stdio.h>
-#include "pda.h"
 #include "list.h"
+#include "pda.h"
 
 int main(int argc, char *argv[]) {
 
@@ -33,19 +33,10 @@ int main(int argc, char *argv[]) {
 
 
 
-    //struct list_node *list = NULL;
+   int pda = PDA3("{ ix iy { iy x y } y");
 
-    //list = insert(list, 'A');
-    //list = insert(list, 'B');
-    //list = insert(list, 'C');
 
-    //display_list(list);
 
-    //list = delete_last(list);
-
-    //display_list(list);
-
-    //return 0;
 
 
 }

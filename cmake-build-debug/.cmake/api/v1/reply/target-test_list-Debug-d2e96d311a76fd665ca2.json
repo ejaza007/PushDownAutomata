@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "test_stack"
+			"path" : "test_list"
 		}
 	],
 	"backtrace" : 1,
@@ -24,7 +24,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 10,
+				"line" : 9,
 				"parent" : 0
 			}
 		]
@@ -54,7 +54,7 @@
 			]
 		}
 	],
-	"id" : "test_stack::@6890427a1f51a3e7e1df",
+	"id" : "test_list::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -70,8 +70,8 @@
 		],
 		"language" : "C"
 	},
-	"name" : "test_stack",
-	"nameOnDisk" : "test_stack",
+	"name" : "test_list",
+	"nameOnDisk" : "test_list",
 	"paths" : 
 	{
 		"build" : ".",
@@ -93,13 +93,13 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "stack.c",
+			"path" : "list.c",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "test_stack.c",
+			"path" : "test_list.c",
 			"sourceGroupIndex" : 0
 		}
 	],
